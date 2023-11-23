@@ -39,6 +39,7 @@ let stopWatch = (function () {
             if (int !== null) {
                 clearInterval(int);
             }
+            // use setInterval() : because it will call the specific function in the specified interval
             int = setInterval(displayTimer, 10);
             return;
 
